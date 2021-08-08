@@ -77,3 +77,4 @@ typings/
 
 #ts build
 dist/
+dist

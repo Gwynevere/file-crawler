@@ -12,7 +12,7 @@ export interface ParsedPathID extends ParsedPath {
     size: string;
 }
 
-declare enum SEARCH_TYPES {
+const enum SEARCH_TYPES {
     'File' = "isFile",
     'Directory' = "isDirectory",
 }

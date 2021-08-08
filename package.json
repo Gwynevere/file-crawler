@@ -4,6 +4,7 @@
   "description": "Search trough directories and sub-directories for files",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": "git://github.com/Gwynevere/file-crawler.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node build/app.js",
@@ -27,6 +28,7 @@
     "dist"
   ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "homepage": "https://github.com/Gwynevere/file-crawler#readme"
   }
 }

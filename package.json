@@ -9,7 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node build/app.js",
     "build": "tsc",
-    "watch": "nodemon"
+    "watch": "nodemon",
+    "prepublish": " npm run build && npm version patch"
   },
   "keywords": [],
   "author": "Gwynevere Mitsuhi",

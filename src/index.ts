@@ -1,9 +1,8 @@
 import {v5 as uuidv5} from "uuid";
-import {ParsedPathID, SEARCH_TYPES, WalkInputOptions} from "../typings";
+import {ParsedPathID, SEARCH_TYPES, WalkInputOptions} from "./typings";
 
 const fs = require('fs');
 const path = require('path');
-
 
 async function walk({
                         dir,

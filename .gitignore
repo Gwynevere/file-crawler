@@ -78,3 +78,6 @@ typings/
 #ts build
 dist/
 dist
+
+.idea/
+.idea

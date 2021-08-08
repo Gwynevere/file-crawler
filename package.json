@@ -1,6 +1,6 @@
 {
   "name": "file-crawler",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Search trough directories and sub-directories for files",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
